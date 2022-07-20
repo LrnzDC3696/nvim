@@ -84,6 +84,9 @@ Plug 'tpope/vim-dotenv'
 Plug 'dracula/vim', { 'as': 'dracula' }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 
+"" - Discord Rich Presence
+Plug 'andweeb/presence.nvim'
+
 call plug#end()
 " ============================================================================
 " Install plugins the first time vim runs
