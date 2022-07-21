@@ -1,5 +1,6 @@
 " JSON
 
+" Coc comment
 setlocal formatexpr=CocAction('formatSelected')
 syntax match Comment +\/\/.\+$+
 
