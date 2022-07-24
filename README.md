@@ -1,4 +1,4 @@
-# nvim
+#osrntar nvim
 
 My nvim settings
 
