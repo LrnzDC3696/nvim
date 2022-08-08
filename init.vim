@@ -54,7 +54,7 @@ Plug 'tpope/vim-surround'  " GIT GOOD
 " Plug 'alvan/vim-closetag'  " (why is this even in here)
 
 "" - Github Copilot
-" Plug 'github/copilot.vim' (CHECKOUT LATER)
+Plug 'github/copilot.vim' " (CHECKOUT LATER)
 
 "" - Git Stuff
 Plug 'tpope/vim-fugitive'  " GIT GOOD, CONFIG BETTER?

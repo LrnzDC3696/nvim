@@ -4,6 +4,7 @@
 " - Buffers
 nnoremap <silent> <C-l> :bp<CR>
 nnoremap <silent> <C-h> :bn<CR>
+nnoremap <silent> <C-q> :bp\|bd #<CR>
 
 " noremap <leader>z :bp <CR>
 " noremap <leader>q :bp <CR>
@@ -23,8 +24,8 @@ nnoremap <Leader>rp :resize 100<CR>
 " map <C-l> <C-w>l
 
 " - Shortcut slit opening
-nnoremap <leader>h :split<Space>
-nnoremap <leader>v :vsplit<Space>
+" nnoremap <leader>h :split<Space>
+" nnoremap <leader>v :vsplit<Space>
 
 nnoremap Y yg$
 nnoremap n nzzzv

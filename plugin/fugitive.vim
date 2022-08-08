@@ -1,14 +1,14 @@
 " Fugitive ----------------------------------------
 
 "" REMAPS
-nnoremap <leader>ga :Gwrite<CR>
-nnoremap <leader>gc :Gcommit<CR>
-nnoremap <leader>gsh :Gpush<CR>
-nnoremap <leader>gll :Gpull<CR>
-nnoremap <leader>gs :Gstatus<CR>
-nnoremap <leader>gb :Gblame<CR>
-nnoremap <leader>gd :Gvdiff<CR>
-nnoremap <leader>gr :Gremove<CR>
+nnoremap <leader>gta :Gwrite<CR>
+nnoremap <leader>gtc :Gcommit<CR>
+nnoremap <leader>gtsh :Gpush<CR>
+nnoremap <leader>gtll :Gpull<CR>
+nnoremap <leader>gts :Gstatus<CR>
+nnoremap <leader>gtb :Gblame<CR>
+nnoremap <leader>gtd :Gvdiff<CR>
+nnoremap <leader>gtr :Gremove<CR>
 
 " nn <silent> gts :G<CR>
 " nn <silent> gta :Git add %<CR>

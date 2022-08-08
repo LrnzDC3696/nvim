@@ -163,5 +163,6 @@ let g:coc_global_extensions = [
   \ 'coc-html',
   \ 'coc-markdownlint',
   \ 'coc-pyright',
+  \ 'coc-marketplace',
   \ ]
 
