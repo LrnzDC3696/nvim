@@ -1,8 +1,3 @@
 #osrntar nvim
 
-My nvim settings
-
-# Todo
-
-- [ ] fix todo
-
+My nvim settings in lua
