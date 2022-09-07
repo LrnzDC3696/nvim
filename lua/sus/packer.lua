@@ -1,6 +1,7 @@
 -- Install packer
 local install_path = vim.fn.stdpath 'data' .. '/site/pack/packer/start/packer.nvim'
 local is_bootstrap = false
+
 if vim.fn.empty(vim.fn.glob(install_path)) > 0 then
     is_bootstrap = true
     vim.fn.execute('!git clone https://github.com/wbthomason/packer.nvim ' .. install_path)
@@ -9,10 +10,24 @@ end
 
 -- stylua: ignore start
 require('packer').startup(function(use)
-    use 'wbthomason/packer.nvim'                                                    -- Package manager
+    -- Package manager
+    use 'wbthomason/packer.nvim'                                                    
+
+    -- Notes
     use 'vimwiki/vimwiki'
+
+    -- Colerscheme stuff
     use {'dracula/vim', as = 'dracula'}
+
+    -- Share thy wisdom
     use 'andweeb/presence.nvim'
+    use 'wakatime/vim-wakatime'
+
+    -- Harpoon
+    use {
+        'ThePrimeagen/harpoon',
+        requires = {{'nvim-lua/plenary.nvim'}}
+    }
 
     -- Telescope
     use {

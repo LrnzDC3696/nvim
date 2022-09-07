@@ -8,6 +8,7 @@ require("sus.packer")
 require("sus.vimwiki")
 require("sus.telescope")
 require("sus.treesitter")
+require("sus.harpoon")
 
 -- [[ Highlight on yank ]]
 -- See `:help vim.highlight.on_yank()`
