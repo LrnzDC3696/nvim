@@ -1,3 +1,3 @@
-#osrntar nvim
+# nvim
 
 My nvim settings in lua
