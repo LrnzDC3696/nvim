@@ -14,7 +14,7 @@ require('packer').startup(function(use)
     use 'wbthomason/packer.nvim'                                                    
 
     -- Notes
-    use 'vimwiki/vimwiki'
+    use 'mhinz/vim-startify'
 
     -- Colerscheme stuff
     use {'dracula/vim', as = 'dracula'}
