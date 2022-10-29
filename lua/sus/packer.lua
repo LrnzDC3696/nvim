@@ -13,8 +13,10 @@ require('packer').startup(function(use)
     -- Package manager
     use 'wbthomason/packer.nvim'                                                    
 
+    -- Improvements!
+    use 'ThePrimeagen/vim-be-good'                                                    
+
     -- Notes
-    use 'mhinz/vim-startify'
 
     -- Colerscheme stuff
     use {'dracula/vim', as = 'dracula'}
@@ -22,6 +24,14 @@ require('packer').startup(function(use)
     -- Share thy wisdom
     use 'andweeb/presence.nvim'
     use 'wakatime/vim-wakatime'
+
+    -- Autocompletion
+    use {'neoclide/coc.nvim', branch = 'release'}
+    use 'tpope/vim-surround'
+
+    -- Better Indentation
+    use 'vim-scripts/indentpython.vim'
+
 
     -- Harpoon
     use {

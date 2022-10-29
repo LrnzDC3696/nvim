@@ -5,7 +5,6 @@
 require("sus.sets")
 require("sus.keymap")  -- Must be before plugins otherwise wrong leader might be set
 require("sus.packer")
-require("sus.vimwiki")
 require("sus.telescope")
 require("sus.treesitter")
 require("sus.harpoon")

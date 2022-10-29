@@ -18,5 +18,9 @@ vim.opt.guicursor = ""
 
 vim.opt.scrolloff = 8
 
+-- From previous
+vim.opt.colorcolum = 88
+vim.opt.colorcolum = 88
+
 -- Clipboard stuff
 vim.opt.clipboard = "unnamedplus"
