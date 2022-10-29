@@ -2,10 +2,9 @@
 -- Yeeted from: https://github.com/nvim-lua/kickstart.nvim
 -- The package manager: https://github.com/wbthomason/packer.nvim
 
-require("sus.sets")
+require("sus.options")
 require("sus.keymap")  -- Must be before plugins otherwise wrong leader might be set
 require("sus.packer")
-require("sus.vimwiki")
 require("sus.telescope")
 require("sus.treesitter")
 require("sus.harpoon")
