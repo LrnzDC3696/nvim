@@ -2,20 +2,20 @@
 -- Yeeted from: https://github.com/nvim-lua/kickstart.nvim
 -- The package manager: https://github.com/wbthomason/packer.nvim
 
-require("sus.options")
 require("sus.keymap")  -- Must be before plugins otherwise wrong leader might be set
+
+-- [[ vanilla ]]
+require("sus.options")
+require("sus.remaps")
+require("sus.autocommands")
+-- pairs
+-- commentary
+-- indentline
+
+
+-- [[ plugins ]]
+
 require("sus.packer")
 require("sus.telescope")
 require("sus.treesitter")
 require("sus.harpoon")
-
--- [[ Highlight on yank ]]
--- See `:help vim.highlight.on_yank()`
-local highlight_group = vim.api.nvim_create_augroup('YankHighlight', { clear = true })
-vim.api.nvim_create_autocmd('TextYankPost', {
-  callback = function()
-    vim.highlight.on_yank()
-  end,
-  group = highlight_group,
-  pattern = '*',
-})
