@@ -4,6 +4,7 @@
 
 -- [[ MINE ]]
 vim.opt.guicursor = ""
+vim.opt.colorcolumn = 88
 
 
 -- [[ https://github.com/LunarVim/nvim-basic-ide/blob/master/lua/user/options.lua ]]
