@@ -16,6 +16,9 @@ require("sus.autocommands")
 -- [[ plugins ]]
 
 require("sus.packer")
+require("sus.presence")
 require("sus.telescope")
 require("sus.treesitter")
 require("sus.harpoon")
+require("sus.coc")
+require("sus.arduino")

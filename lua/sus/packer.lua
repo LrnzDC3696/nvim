@@ -16,9 +16,6 @@ require('packer').startup(function(use)
     -- Improve !!!
     use 'ThePrimeagen/vim-be-good'
 
-    -- Notes
-    use 'mhinz/vim-startify'
-
     -- Colerscheme stuff
     use {'dracula/vim', as = 'dracula'}
 
@@ -27,11 +24,10 @@ require('packer').startup(function(use)
     use 'wakatime/vim-wakatime'
 
     -- Autocompletion
+    use 'valloric/python-indent'
     use {'neoclide/coc.nvim', branch = 'release'}
     use 'tpope/vim-surround'
-
-    -- Better Indentation
-    use 'vim-scripts/indentpython.vim'
+    use 'tpope/vim-commentary'
 
     -- Harpoon
     use {
@@ -50,6 +46,9 @@ require('packer').startup(function(use)
         'nvim-treesitter/nvim-treesitter',
         run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
     }
+
+    -- Arduino Stuff
+    use {'stevearc/vim-arduino'}
 
     if is_bootstrap then
         require('packer').sync()

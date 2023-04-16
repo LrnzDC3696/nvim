@@ -1,0 +1,9 @@
+{
+  "python.formatting.provider": "black",
+  "python.linting.enabled": true,
+  "python.linting.flake8Enabled": true,
+  "python.sortImports.path": "isort",
+  "python.sortImports.args": ["--profile", "black"],
+  "pyright.organizeimports.provider": "isort",
+  "suggest.noselect": true
+}
